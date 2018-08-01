@@ -1,6 +1,6 @@
 # Black-hole-detection-in-AD-HOC-NETWORK
-#Title- Simulation of Black Hole attacks in Wireless AODV (Ad-Hoc On-demand Distance Vector) routing protocol
-#Problem Statement- One of the most common attacks on the routing protocols now a days- Black Hole attack. To simulate a network with a malicious node(known as Black Hole) as to how the network functions under the situation of an attack.
+# Title- Simulation of Black Hole attacks in Wireless AODV (Ad-Hoc On-demand Distance Vector) routing protocol
+# Problem Statement- One of the most common attacks on the routing protocols now a days- Black Hole attack. To simulate a network with a malicious node(known as Black Hole) as to how the network functions under the situation of an attack.
 Motivation- In today’s world, what is the most important need in the creation and maintenance of an Ad-hoc network? Safety it is! Along with fast and efficient network data transfer, making sure of the safety and reliability of data transfer is as important. Various kinds of attacks exist like
 •	Passive Eavesdropping
 •	Selective Existence (Selfish Nodes)
@@ -12,19 +12,19 @@ Motivation- In today’s world, what is the most important need in the creation 
 •	Sleep Deprivation Torture Attack (Battery Exhaustion)
 What we look forward to simulate is the Black Hole attack in the AODV routing protocol so as to easily understand the working of this attack and what to do to prevent it!
 
-#Research papers- 
-##•	Black Hole Attack and Detection Method for AODV Routing Protocol in MANETs
+# Research papers- 
+## •	Black Hole Attack and Detection Method for AODV Routing Protocol in MANETs
 (International Journal of Advanced Research in Computer Engineering & Technology (IJARCET)
 
 Causing packet loss due to attacks by malicious nodes is one of the most important problem in MANETs. There are many ways by which packet loss can occur in MANETs such as broken links, transmission errors, no route to the destination and attacks caused by malicious nodes. To determine the exact cause of packet loss in wireless network is a challenging task. In this paper, we have investigated packet loss problem caused by a malicious nodes that performs the well known attack called BlackHole attack in the network. To mitigate the effects of such attack, we have also proposed a detection technique that efficiently detects the malicious nodes in the network. We have done simulations using NS-3 simulator. BlackHole attack is also called sequence number attack because it is created using and modifying sequence number field in routing control packets. We have performed the attack and its detection method on a of the well known and largely used MANET routing protocol known as Ad Hoc Distance Vector (AODV) routing protocol. We have simulated this attack and determined effect of this attack on network performance by different network scenario. Furthermore, we have implemented a detection method that helps to isolates the malicious nodes in the network
 
 
-##•	A Modified AODV – Algorithm for prevention of Black hole attack in Mobile Adhoc Networks
+## •	A Modified AODV – Algorithm for prevention of Black hole attack in Mobile Adhoc Networks
 (International Journal of Conceptions on Electrical and Electronics Engineering)
 
 MANETs are highly vulnerable to attacks due to their inherent characteristics like lack of infrastructure and complexity of wireless communication. Security is an essential requirement in mobile ad hoc networks. This paper analyzes the effect of black hole attack which is one of the possible attacks in ad hoc networks. In the first phase we simulate the effect of black hole nodes in the network for AODV routing protocol. In the second phase we have modified AODV routing protocol by tuning the parameters in the RREP packet for detection of the Black hole nodes. We have done simulations by changing the various parameters like number of nodes, mobility, black hole nodes using NS2. We have compared the results with traditional AODV for simulation matrix like PDR and End-to-End delay.
 
-##•	SIMULATION OF BLACK HOLE ATTACK IN WIRELESS AD-HOC NETWORKS
+## •	SIMULATION OF BLACK HOLE ATTACK IN WIRELESS AD-HOC NETWORKS
 (SIMULATION OF BLACK HOLE ATTACK IN WIRELESS AD-HOC NETWORKS
 A MASTER’S THESIS in Computer Engineering Atılım University)
 
@@ -46,13 +46,13 @@ The security issues related to Ad-hocs networks are various, the biggest one bei
 
 
 
-##Platforms/Technology Used- 
+## Platforms/Technology Used- 
 •	Turbo C++
 •	 NS2
  
 
-##Proposed Work-
-##Description
+## Proposed Work-
+## Description
 Ad-hoc Network- This network is called Independent Basic Service Set (IBSS) Stations in a IBSS communicate directly with each other and do not use an access point. Because of the mobility associated with ad-hoc networks, they are commonly called MANET (Mobile Ad-hoc NETwork). MANETs are self organized networks whose nodes are free to move randomly while being able to communicate with each other without the
 help of an existing network infrastructure. MANETs are suitable for use in situations
 where any wired or wireless infrastructure is inaccessible, overloaded, damaged or
